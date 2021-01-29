@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/users")
 public class  UsersController {
 
+    //first develop commit
+
     @GetMapping()
     public String getUsers() {
         return "HTTP GET reqest was sent ";
